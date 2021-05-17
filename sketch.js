@@ -68,7 +68,7 @@ function draw() {
     background(0);
     Engine.update(engine);
     textSize(35)
-  text("Score : "+score,20,40);
+ // text("Score : "+score,20,40);
   fill("white");
   text(mouseX + "," + mouseY, 20, 50);
   textSize(35)
